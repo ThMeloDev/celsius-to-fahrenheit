@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+}
+
+main {
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background: rgb(51, 85, 255) radial-gradient(circle, rgba(51, 85, 255, 1) 18%, rgba(247, 86, 16, 1) 62%, rgba(255, 0, 0, 1) 79%);
+}
+
+img {
+    max-width: 200px;
+    width: auto;
+    height: auto;
+}
+
+.fields{
+    width: 300px;
+    background: #AFCFFF;
+    border: 1px solid #15ABFF;
+    color: rgb(0, 119, 255);
+    padding-left: 10px;
+    font-size: 30px;
+    font-weight: 700;
+    border-radius: 6px;
+    outline: none;
+}
+
+.buttons{
+    font-size: 25px;
+    font-weight: 700;
+    padding: 7px;
+    background: #AFCFFF;
+    border: 1px solid #15ABFF;
+    color: rgb(0, 119, 255);
+    text-transform: uppercase;
+}
+
+#buttons {
+    width: max-content;   
+}
+
+
+
+#buttonC {
+    margin: 0 5px;
+}
+
+#fields {
+    display: flex;
+    flex-direction: column;
+    margin: 25px 0;
+}
+
+#fieldCelsius {
+    margin-bottom: 8px;
+}
+
+#span{
+    display: none;
+    font-size: 25px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    margin-top: 20px;
+    text-transform: uppercase;
+    color: #000000;
+}
